@@ -5,6 +5,7 @@ public enum Tipo {
 	
 	private int codigo;
 	private String nombre;
+	// modifique de public a private
 	private Tipo(int codigo,String nombre) {
 		this.codigo = codigo;
 		this.nombre = nombre;

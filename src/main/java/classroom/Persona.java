@@ -2,8 +2,8 @@ package classroom;
 
 public class Persona {
 
-    long cedula = 0;
-//    static long cedula;
+    long cedula = 1;
+//  final long cedula;
     String nombre;
     static int totalPersonas;
     
@@ -15,6 +15,7 @@ public class Persona {
 // AGREGADO
     Persona() {
         this.nombre = "";
+        this.cedula = 0;
         totalPersonas++;
     }
     
@@ -39,7 +40,7 @@ public class Persona {
     // Modificado cedula
     Persona(String nombre) {
         this.nombre = "";
-        this.cedula = 1;
+//        this.cedula = 1;
         totalPersonas++;
     }
     
